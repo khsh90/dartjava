@@ -4,4 +4,6 @@
 // Current Date time: Fri Jun 16 14:17:40 IST 2017
 // Click me to see the solution
 
-void main() {}
+void main() {
+  print(DateTime.now());
+}
