@@ -6,10 +6,10 @@ void main() {
   var matchedArr = <int>[];
   int count = 0;
 
-  var arr = [20, 1, 20, 20, 5, 20, 20, 5, 20, 20];
+  var arr = [10, 20, 10, 20, 40, 13, 20, 6];
 
   for (var i = 0; i < arr.length - 1; i++) {
-    if (arr[i] != arr[i + 1] && arr[i] != arr[i + 2] && arr[i] == 20) {
+    if (arr[i] != arr[i + 1] && arr[i] == 20) {
       matchedArr.add(arr[i]);
 
       print(matchedArr);
