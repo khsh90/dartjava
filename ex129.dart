@@ -4,5 +4,12 @@
 // Click me to see the solution
 
 void main() {
-  var nums = [10, 20, 20, 20, 20, 30, 40, 40, 40];
+  var nums = [10, 20, 10, 20, 30, 40, 40, 30, 50];
+  var result = 0;
+
+  for (var i = 0; i < nums.length; i++) {
+    result = result ^ nums[i];
+  }
+
+  print(result);
 }
