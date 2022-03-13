@@ -5,5 +5,17 @@
 // Click me to see the solution
 
 void main() {
-  List<int> numbers = [1, 1, 2, 3, 3, 3, 4, 5, 6, 7, 7, 7];
+  var numbers = [3, 3];
+  var newArr = [];
+  var index = 1;
+  for (var i = 2; i < numbers.length; i++) {
+    if (numbers[i] != numbers[index] ||
+        (numbers[i] == numbers[index] && numbers[i] != numbers[index - 1])) {
+      index++;
+      print(index);
+      numbers[index] = numbers[i];
+      print(index);
+    }
+  }
+  print(index += 1);
 }
