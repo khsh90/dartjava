@@ -20,7 +20,7 @@ void oneSingleDigit({required String number}) {
 
   if (n != null && n >= 0) {
     print(
-        'The single digit number is: ${(n == 0 ? 0 : (n % 9 == 0 ? 9 : n % 9))} ');
+        'The single digit number is: ${(n == 0 ? 0 : (n % 2 == 0 ? 2 : n % 2))} ');
 
     print("\n");
   }
