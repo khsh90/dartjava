@@ -11,7 +11,6 @@ void main() {
   var splitWord = word.split('');
   var diffrentWord = [...splitWord];
 
-  var diffArr = [];
   var matchArr = [];
 
   for (var i = 0; i < splitWord.length; i++) {
