@@ -14,14 +14,8 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "clock",
-      "rootUri": "file:///C:/Users/dana/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/clock-1.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "collection",
-      "rootUri": "file:///C:/Users/dana/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/collection-1.15.0",
+      "rootUri": "file:///C:/Users/dana/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/collection-1.16.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -34,12 +28,6 @@
     {
       "name": "http_parser",
       "rootUri": "file:///C:/Users/dana/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/http_parser-4.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "intl",
-      "rootUri": "file:///C:/Users/dana/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/intl-0.17.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -92,7 +80,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2022-03-07T19:56:46.546243Z",
+  "generated": "2022-03-20T19:43:04.056412Z",
   "generator": "pub",
   "generatorVersion": "2.14.4"
 }
