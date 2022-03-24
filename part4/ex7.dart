@@ -15,7 +15,7 @@ void main() {
     stdout.write('Please enter a month as number like jan 1 , feb 2 etc... : ');
     var userInput1 = stdin.readLineSync();
 
-    stdout.write('Please enter a year ');
+    stdout.write('Please enter a year:  ');
     var userInput2 = stdin.readLineSync();
 
     if (userInput1 != null &&
@@ -35,10 +35,11 @@ void getNumberOfDays({required String month, required String year}) {
 
   try {
     if (intMonth != null && intYear != null) {
-      var numberOfMonth = DateUtils.lastDayOfMonth(DateTime(intYear, intMonth));
+      var neededYear = DateTime(intYear, intMonth);
+      var numberOfMonth = DateUtils.lastDayOfMonth(neededYear);
 
       print(
-          'The number of enered month based on year $intYear :$numberOfMonth ');
+          'The number of enered month based on year $intYear : ${numberOfMonth.day} days ');
     }
   } catch (_) {
     print('Please enter a valid year and month ');
